@@ -1,0 +1,31 @@
+.card {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.cities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.bus-card {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  margin-top:1rem;
+  border-radius: 1rem;
+}
+
+form {
+    margin-bottom:3rem;
+}
